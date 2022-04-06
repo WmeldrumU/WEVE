@@ -10,6 +10,8 @@ namespace weve {
         WeveWindow(int w, int h, std::string name);
         ~WeveWindow();
 
+        bool shouldClose() { return glfwWindowShouldClose(window); };
+
         private:
         void initWindow();
         
