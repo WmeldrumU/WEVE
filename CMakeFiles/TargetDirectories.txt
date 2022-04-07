@@ -1,0 +1,4 @@
+C:/Users/meldr/source/repos/WEVE/CMakeFiles/WeveEngine.dir
+C:/Users/meldr/source/repos/WEVE/CMakeFiles/Shaders.dir
+C:/Users/meldr/source/repos/WEVE/CMakeFiles/ALL_BUILD.dir
+C:/Users/meldr/source/repos/WEVE/CMakeFiles/ZERO_CHECK.dir
