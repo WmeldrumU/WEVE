@@ -15,7 +15,7 @@ if (CMAKE_GENERATOR STREQUAL "MinGW Makefiles")
     set(CMAKE_CXX_COMPILER  ${MINGW_PATH}/bin/g++.exe)
 endif()
 
-project(${NAME} VERSION 0.1.0)
+project(${NAME} VERSION 0.23.0)
 
 # 1. Set VULKAN_SDK_PATH in .env.cmake to target specific vulkan version
 if (DEFINED VULKAN_SDK_PATH)
@@ -68,7 +68,7 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 
 target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_17)
 
-set_property(TARGET ${PROJECT_NAME} PROPERTY VS_DEBUGGER_WORKING_DIRECTORY "${CMAKE_SOURCE_DIR})
+set_property(TARGET ${PROJECT_NAME} PROPERTY VS_DEBUGGER_WORKING_DIRECTORY "${CMAKE_SOURCE_DIR}/build")
 
 if (WIN32)
   message(STATUS "CREATING BUILD FOR WINDOWS")
@@ -85,7 +85,7 @@ if (WIN32)
   target_include_directories(${PROJECT_NAME} PUBLIC
     ${PROJECT_SOURCE_DIR}/src
     ${Vulkan_INCLUDE_DIRS}
-    #${TINYOBJ_PATH}
+    ${TINYOBJ_PATH}
     ${GLFW_INCLUDE_DIRS}
     ${GLM_PATH}
     )
@@ -100,7 +100,7 @@ elseif (UNIX)
     message(STATUS "CREATING BUILD FOR UNIX")
     target_include_directories(${PROJECT_NAME} PUBLIC
       ${PROJECT_SOURCE_DIR}/src
-     # ${TINYOBJ_PATH}
+      ${TINYOBJ_PATH}
     )
     target_link_libraries(${PROJECT_NAME} glfw ${Vulkan_LIBRARIES})
 endif()
@@ -111,33 +111,33 @@ endif()
 # Find all vertex and fragment sources within shaders directory
 # taken from VBlancos vulkan tutorial
 # https://github.com/vblanco20-1/vulkan-guide/blob/all-chapters/CMakeLists.txt
-find_program(GLSL_VALIDATOR glslangValidator HINTS 
-  ${Vulkan_GLSLANG_VALIDATOR_EXECUTABLE} 
-  /usr/bin 
-  /usr/local/bin 
-  ${VULKAN_SDK_PATH}/Bin
-  ${VULKAN_SDK_PATH}/Bin32
-  $ENV{VULKAN_SDK}/Bin/ 
-  $ENV{VULKAN_SDK}/Bin32/
-)
+# find_program(GLSL_VALIDATOR glslangValidator HINTS 
+#   ${Vulkan_GLSLANG_VALIDATOR_EXECUTABLE} 
+#   /usr/bin 
+#   /usr/local/bin 
+#   ${VULKAN_SDK_PATH}/Bin
+#   ${VULKAN_SDK_PATH}/Bin32
+#   $ENV{VULKAN_SDK}/Bin/ 
+#   $ENV{VULKAN_SDK}/Bin32/
+# )
 
-# get all .vert and .frag files in shaders directory
-file(GLOB_RECURSE GLSL_SOURCE_FILES
-  "${PROJECT_SOURCE_DIR}/shaders/*.frag"
-  "${PROJECT_SOURCE_DIR}/shaders/*.vert"
-)
+# # get all .vert and .frag files in shaders directory
+# file(GLOB_RECURSE GLSL_SOURCE_FILES
+#   "${PROJECT_SOURCE_DIR}/shaders/*.frag"
+#   "${PROJECT_SOURCE_DIR}/shaders/*.vert"
+# )
 
-foreach(GLSL ${GLSL_SOURCE_FILES})
-  get_filename_component(FILE_NAME ${GLSL} NAME)
-  set(SPIRV "${PROJECT_SOURCE_DIR}/shaders/${FILE_NAME}.spv")
-  add_custom_command(
-    OUTPUT ${SPIRV}
-    COMMAND ${GLSL_VALIDATOR} -V ${GLSL} -o ${SPIRV}
-    DEPENDS ${GLSL})
-  list(APPEND SPIRV_BINARY_FILES ${SPIRV})
-endforeach(GLSL)
+# foreach(GLSL ${GLSL_SOURCE_FILES})
+#   get_filename_component(FILE_NAME ${GLSL} NAME)
+#   set(SPIRV "${PROJECT_SOURCE_DIR}/shaders/${FILE_NAME}.spv")
+#   add_custom_command(
+#     OUTPUT ${SPIRV}
+#     COMMAND ${GLSL_VALIDATOR} -V ${GLSL} -o ${SPIRV}
+#     DEPENDS ${GLSL})
+#   list(APPEND SPIRV_BINARY_FILES ${SPIRV})
+# endforeach(GLSL)
 
-add_custom_target(
-    Shaders
-    DEPENDS ${SPIRV_BINARY_FILES}
-)
+# add_custom_target(
+#     Shaders
+#     DEPENDS ${SPIRV_BINARY_FILES}
+# )
