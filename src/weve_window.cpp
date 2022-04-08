@@ -10,6 +10,10 @@ namespace weve {
         glfwTerminate();
     }
 
+    bool WeveWindow::shouldClose() { 
+        return glfwWindowShouldClose(window);
+    }
+
     void WeveWindow::initWindow() {
         glfwInit();
         glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
