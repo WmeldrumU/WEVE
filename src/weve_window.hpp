@@ -10,10 +10,13 @@ namespace weve {
         WeveWindow(int w, int h, std::string name);
         ~WeveWindow();
 
+        //deleting copy contrstuctor and copy operators
         WeveWindow(const WeveWindow &) = delete;
         WeveWindow &operator=(const WeveWindow &) = delete;
 
         bool shouldClose();
+
+        void createWindowSurface(VkInstance instance, VkSurfaceKHR *surface);
 
         private:
         void initWindow();

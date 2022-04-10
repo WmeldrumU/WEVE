@@ -1,3 +1,4 @@
 C:/Users/meldr/source/repos/WEVE/build/CMakeFiles/WeveEngine.dir
+C:/Users/meldr/source/repos/WEVE/build/CMakeFiles/Shaders.dir
 C:/Users/meldr/source/repos/WEVE/build/CMakeFiles/edit_cache.dir
 C:/Users/meldr/source/repos/WEVE/build/CMakeFiles/rebuild_cache.dir

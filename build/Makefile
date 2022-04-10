@@ -128,6 +128,19 @@ WeveEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeveEngine.dir\build.make CMakeFiles/WeveEngine.dir/build
 .PHONY : WeveEngine/fast
 
+#=============================================================================
+# Target rules for targets named Shaders
+
+# Build rule for target.
+Shaders: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Shaders
+.PHONY : Shaders
+
+# fast build rule for target.
+Shaders/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shaders.dir\build.make CMakeFiles/Shaders.dir/build
+.PHONY : Shaders/fast
+
 src/app.obj: src/app.cpp.obj
 .PHONY : src/app.obj
 
@@ -176,6 +189,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeveEngine.dir\build.make CMakeFiles/WeveEngine.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/weve_device.obj: src/weve_device.cpp.obj
+.PHONY : src/weve_device.obj
+
+# target to build an object file
+src/weve_device.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeveEngine.dir\build.make CMakeFiles/WeveEngine.dir/src/weve_device.cpp.obj
+.PHONY : src/weve_device.cpp.obj
+
+src/weve_device.i: src/weve_device.cpp.i
+.PHONY : src/weve_device.i
+
+# target to preprocess a source file
+src/weve_device.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeveEngine.dir\build.make CMakeFiles/WeveEngine.dir/src/weve_device.cpp.i
+.PHONY : src/weve_device.cpp.i
+
+src/weve_device.s: src/weve_device.cpp.s
+.PHONY : src/weve_device.s
+
+# target to generate assembly for a file
+src/weve_device.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeveEngine.dir\build.make CMakeFiles/WeveEngine.dir/src/weve_device.cpp.s
+.PHONY : src/weve_device.cpp.s
+
+src/weve_pipeline.obj: src/weve_pipeline.cpp.obj
+.PHONY : src/weve_pipeline.obj
+
+# target to build an object file
+src/weve_pipeline.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeveEngine.dir\build.make CMakeFiles/WeveEngine.dir/src/weve_pipeline.cpp.obj
+.PHONY : src/weve_pipeline.cpp.obj
+
+src/weve_pipeline.i: src/weve_pipeline.cpp.i
+.PHONY : src/weve_pipeline.i
+
+# target to preprocess a source file
+src/weve_pipeline.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeveEngine.dir\build.make CMakeFiles/WeveEngine.dir/src/weve_pipeline.cpp.i
+.PHONY : src/weve_pipeline.cpp.i
+
+src/weve_pipeline.s: src/weve_pipeline.cpp.s
+.PHONY : src/weve_pipeline.s
+
+# target to generate assembly for a file
+src/weve_pipeline.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeveEngine.dir\build.make CMakeFiles/WeveEngine.dir/src/weve_pipeline.cpp.s
+.PHONY : src/weve_pipeline.cpp.s
+
 src/weve_window.obj: src/weve_window.cpp.obj
 .PHONY : src/weve_window.obj
 
@@ -208,6 +269,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Shaders
 	@echo ... WeveEngine
 	@echo ... src/app.obj
 	@echo ... src/app.i
@@ -215,6 +277,12 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/weve_device.obj
+	@echo ... src/weve_device.i
+	@echo ... src/weve_device.s
+	@echo ... src/weve_pipeline.obj
+	@echo ... src/weve_pipeline.i
+	@echo ... src/weve_pipeline.s
 	@echo ... src/weve_window.obj
 	@echo ... src/weve_window.i
 	@echo ... src/weve_window.s

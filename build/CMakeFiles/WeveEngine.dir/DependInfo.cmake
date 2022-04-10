@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/meldr/source/repos/WEVE/src/app.cpp" "CMakeFiles/WeveEngine.dir/src/app.cpp.obj" "gcc" "CMakeFiles/WeveEngine.dir/src/app.cpp.obj.d"
   "C:/Users/meldr/source/repos/WEVE/src/main.cpp" "CMakeFiles/WeveEngine.dir/src/main.cpp.obj" "gcc" "CMakeFiles/WeveEngine.dir/src/main.cpp.obj.d"
+  "C:/Users/meldr/source/repos/WEVE/src/weve_device.cpp" "CMakeFiles/WeveEngine.dir/src/weve_device.cpp.obj" "gcc" "CMakeFiles/WeveEngine.dir/src/weve_device.cpp.obj.d"
+  "C:/Users/meldr/source/repos/WEVE/src/weve_pipeline.cpp" "CMakeFiles/WeveEngine.dir/src/weve_pipeline.cpp.obj" "gcc" "CMakeFiles/WeveEngine.dir/src/weve_pipeline.cpp.obj.d"
   "C:/Users/meldr/source/repos/WEVE/src/weve_window.cpp" "CMakeFiles/WeveEngine.dir/src/weve_window.cpp.obj" "gcc" "CMakeFiles/WeveEngine.dir/src/weve_window.cpp.obj.d"
   )
 
