@@ -53,10 +53,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\meldr\source\repos\WEVE
+CMAKE_SOURCE_DIR = "C:\Users\MKDV86\Desktop\non-work code\WEVE"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\meldr\source\repos\WEVE\build
+CMAKE_BINARY_DIR = "C:\Users\MKDV86\Desktop\non-work code\WEVE\build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/Shaders.dir/clean
 CMakeFiles/WeveEngine.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeveEngine.dir\build.make CMakeFiles/WeveEngine.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WeveEngine.dir\build.make CMakeFiles/WeveEngine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\meldr\source\repos\WEVE\build\CMakeFiles --progress-num=3,4,5,6,7,8 "Built target WeveEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\MKDV86\Desktop\non-work code\WEVE\build\CMakeFiles" --progress-num=3,4,5,6,7,8 "Built target WeveEngine"
 .PHONY : CMakeFiles/WeveEngine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/WeveEngine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\meldr\source\repos\WEVE\build\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\MKDV86\Desktop\non-work code\WEVE\build\CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/WeveEngine.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\meldr\source\repos\WEVE\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\MKDV86\Desktop\non-work code\WEVE\build\CMakeFiles" 0
 .PHONY : CMakeFiles/WeveEngine.dir/rule
 
 # Convenience name for target.
@@ -107,14 +107,14 @@ CMakeFiles/WeveEngine.dir/clean:
 CMakeFiles/Shaders.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shaders.dir\build.make CMakeFiles/Shaders.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Shaders.dir\build.make CMakeFiles/Shaders.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\meldr\source\repos\WEVE\build\CMakeFiles --progress-num=1,2 "Built target Shaders"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\MKDV86\Desktop\non-work code\WEVE\build\CMakeFiles" --progress-num=1,2 "Built target Shaders"
 .PHONY : CMakeFiles/Shaders.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Shaders.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\meldr\source\repos\WEVE\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\MKDV86\Desktop\non-work code\WEVE\build\CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Shaders.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\meldr\source\repos\WEVE\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\MKDV86\Desktop\non-work code\WEVE\build\CMakeFiles" 0
 .PHONY : CMakeFiles/Shaders.dir/rule
 
 # Convenience name for target.

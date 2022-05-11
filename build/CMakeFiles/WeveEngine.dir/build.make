@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\meldr\source\repos\WEVE
+CMAKE_SOURCE_DIR = "C:\Users\MKDV86\Desktop\non-work code\WEVE"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\meldr\source\repos\WEVE\build
+CMAKE_BINARY_DIR = "C:\Users\MKDV86\Desktop\non-work code\WEVE\build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/WeveEngine.dir/depend.make
@@ -72,76 +72,76 @@ CMakeFiles/WeveEngine.dir/src/app.cpp.obj: CMakeFiles/WeveEngine.dir/flags.make
 CMakeFiles/WeveEngine.dir/src/app.cpp.obj: CMakeFiles/WeveEngine.dir/includes_CXX.rsp
 CMakeFiles/WeveEngine.dir/src/app.cpp.obj: ../src/app.cpp
 CMakeFiles/WeveEngine.dir/src/app.cpp.obj: CMakeFiles/WeveEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\meldr\source\repos\WEVE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WeveEngine.dir/src/app.cpp.obj"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WeveEngine.dir/src/app.cpp.obj -MF CMakeFiles\WeveEngine.dir\src\app.cpp.obj.d -o CMakeFiles\WeveEngine.dir\src\app.cpp.obj -c C:\Users\meldr\source\repos\WEVE\src\app.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\MKDV86\Desktop\non-work code\WEVE\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/WeveEngine.dir/src/app.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WeveEngine.dir/src/app.cpp.obj -MF CMakeFiles\WeveEngine.dir\src\app.cpp.obj.d -o CMakeFiles\WeveEngine.dir\src\app.cpp.obj -c "C:\Users\MKDV86\Desktop\non-work code\WEVE\src\app.cpp"
 
 CMakeFiles/WeveEngine.dir/src/app.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WeveEngine.dir/src/app.cpp.i"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\meldr\source\repos\WEVE\src\app.cpp > CMakeFiles\WeveEngine.dir\src\app.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\MKDV86\Desktop\non-work code\WEVE\src\app.cpp" > CMakeFiles\WeveEngine.dir\src\app.cpp.i
 
 CMakeFiles/WeveEngine.dir/src/app.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WeveEngine.dir/src/app.cpp.s"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\meldr\source\repos\WEVE\src\app.cpp -o CMakeFiles\WeveEngine.dir\src\app.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\MKDV86\Desktop\non-work code\WEVE\src\app.cpp" -o CMakeFiles\WeveEngine.dir\src\app.cpp.s
 
 CMakeFiles/WeveEngine.dir/src/main.cpp.obj: CMakeFiles/WeveEngine.dir/flags.make
 CMakeFiles/WeveEngine.dir/src/main.cpp.obj: CMakeFiles/WeveEngine.dir/includes_CXX.rsp
 CMakeFiles/WeveEngine.dir/src/main.cpp.obj: ../src/main.cpp
 CMakeFiles/WeveEngine.dir/src/main.cpp.obj: CMakeFiles/WeveEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\meldr\source\repos\WEVE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WeveEngine.dir/src/main.cpp.obj"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WeveEngine.dir/src/main.cpp.obj -MF CMakeFiles\WeveEngine.dir\src\main.cpp.obj.d -o CMakeFiles\WeveEngine.dir\src\main.cpp.obj -c C:\Users\meldr\source\repos\WEVE\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\MKDV86\Desktop\non-work code\WEVE\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WeveEngine.dir/src/main.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WeveEngine.dir/src/main.cpp.obj -MF CMakeFiles\WeveEngine.dir\src\main.cpp.obj.d -o CMakeFiles\WeveEngine.dir\src\main.cpp.obj -c "C:\Users\MKDV86\Desktop\non-work code\WEVE\src\main.cpp"
 
 CMakeFiles/WeveEngine.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WeveEngine.dir/src/main.cpp.i"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\meldr\source\repos\WEVE\src\main.cpp > CMakeFiles\WeveEngine.dir\src\main.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\MKDV86\Desktop\non-work code\WEVE\src\main.cpp" > CMakeFiles\WeveEngine.dir\src\main.cpp.i
 
 CMakeFiles/WeveEngine.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WeveEngine.dir/src/main.cpp.s"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\meldr\source\repos\WEVE\src\main.cpp -o CMakeFiles\WeveEngine.dir\src\main.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\MKDV86\Desktop\non-work code\WEVE\src\main.cpp" -o CMakeFiles\WeveEngine.dir\src\main.cpp.s
 
 CMakeFiles/WeveEngine.dir/src/weve_device.cpp.obj: CMakeFiles/WeveEngine.dir/flags.make
 CMakeFiles/WeveEngine.dir/src/weve_device.cpp.obj: CMakeFiles/WeveEngine.dir/includes_CXX.rsp
 CMakeFiles/WeveEngine.dir/src/weve_device.cpp.obj: ../src/weve_device.cpp
 CMakeFiles/WeveEngine.dir/src/weve_device.cpp.obj: CMakeFiles/WeveEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\meldr\source\repos\WEVE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WeveEngine.dir/src/weve_device.cpp.obj"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WeveEngine.dir/src/weve_device.cpp.obj -MF CMakeFiles\WeveEngine.dir\src\weve_device.cpp.obj.d -o CMakeFiles\WeveEngine.dir\src\weve_device.cpp.obj -c C:\Users\meldr\source\repos\WEVE\src\weve_device.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\MKDV86\Desktop\non-work code\WEVE\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/WeveEngine.dir/src/weve_device.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WeveEngine.dir/src/weve_device.cpp.obj -MF CMakeFiles\WeveEngine.dir\src\weve_device.cpp.obj.d -o CMakeFiles\WeveEngine.dir\src\weve_device.cpp.obj -c "C:\Users\MKDV86\Desktop\non-work code\WEVE\src\weve_device.cpp"
 
 CMakeFiles/WeveEngine.dir/src/weve_device.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WeveEngine.dir/src/weve_device.cpp.i"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\meldr\source\repos\WEVE\src\weve_device.cpp > CMakeFiles\WeveEngine.dir\src\weve_device.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\MKDV86\Desktop\non-work code\WEVE\src\weve_device.cpp" > CMakeFiles\WeveEngine.dir\src\weve_device.cpp.i
 
 CMakeFiles/WeveEngine.dir/src/weve_device.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WeveEngine.dir/src/weve_device.cpp.s"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\meldr\source\repos\WEVE\src\weve_device.cpp -o CMakeFiles\WeveEngine.dir\src\weve_device.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\MKDV86\Desktop\non-work code\WEVE\src\weve_device.cpp" -o CMakeFiles\WeveEngine.dir\src\weve_device.cpp.s
 
 CMakeFiles/WeveEngine.dir/src/weve_pipeline.cpp.obj: CMakeFiles/WeveEngine.dir/flags.make
 CMakeFiles/WeveEngine.dir/src/weve_pipeline.cpp.obj: CMakeFiles/WeveEngine.dir/includes_CXX.rsp
 CMakeFiles/WeveEngine.dir/src/weve_pipeline.cpp.obj: ../src/weve_pipeline.cpp
 CMakeFiles/WeveEngine.dir/src/weve_pipeline.cpp.obj: CMakeFiles/WeveEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\meldr\source\repos\WEVE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/WeveEngine.dir/src/weve_pipeline.cpp.obj"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WeveEngine.dir/src/weve_pipeline.cpp.obj -MF CMakeFiles\WeveEngine.dir\src\weve_pipeline.cpp.obj.d -o CMakeFiles\WeveEngine.dir\src\weve_pipeline.cpp.obj -c C:\Users\meldr\source\repos\WEVE\src\weve_pipeline.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\MKDV86\Desktop\non-work code\WEVE\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/WeveEngine.dir/src/weve_pipeline.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WeveEngine.dir/src/weve_pipeline.cpp.obj -MF CMakeFiles\WeveEngine.dir\src\weve_pipeline.cpp.obj.d -o CMakeFiles\WeveEngine.dir\src\weve_pipeline.cpp.obj -c "C:\Users\MKDV86\Desktop\non-work code\WEVE\src\weve_pipeline.cpp"
 
 CMakeFiles/WeveEngine.dir/src/weve_pipeline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WeveEngine.dir/src/weve_pipeline.cpp.i"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\meldr\source\repos\WEVE\src\weve_pipeline.cpp > CMakeFiles\WeveEngine.dir\src\weve_pipeline.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\MKDV86\Desktop\non-work code\WEVE\src\weve_pipeline.cpp" > CMakeFiles\WeveEngine.dir\src\weve_pipeline.cpp.i
 
 CMakeFiles/WeveEngine.dir/src/weve_pipeline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WeveEngine.dir/src/weve_pipeline.cpp.s"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\meldr\source\repos\WEVE\src\weve_pipeline.cpp -o CMakeFiles\WeveEngine.dir\src\weve_pipeline.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\MKDV86\Desktop\non-work code\WEVE\src\weve_pipeline.cpp" -o CMakeFiles\WeveEngine.dir\src\weve_pipeline.cpp.s
 
 CMakeFiles/WeveEngine.dir/src/weve_window.cpp.obj: CMakeFiles/WeveEngine.dir/flags.make
 CMakeFiles/WeveEngine.dir/src/weve_window.cpp.obj: CMakeFiles/WeveEngine.dir/includes_CXX.rsp
 CMakeFiles/WeveEngine.dir/src/weve_window.cpp.obj: ../src/weve_window.cpp
 CMakeFiles/WeveEngine.dir/src/weve_window.cpp.obj: CMakeFiles/WeveEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\meldr\source\repos\WEVE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/WeveEngine.dir/src/weve_window.cpp.obj"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WeveEngine.dir/src/weve_window.cpp.obj -MF CMakeFiles\WeveEngine.dir\src\weve_window.cpp.obj.d -o CMakeFiles\WeveEngine.dir\src\weve_window.cpp.obj -c C:\Users\meldr\source\repos\WEVE\src\weve_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\MKDV86\Desktop\non-work code\WEVE\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/WeveEngine.dir/src/weve_window.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/WeveEngine.dir/src/weve_window.cpp.obj -MF CMakeFiles\WeveEngine.dir\src\weve_window.cpp.obj.d -o CMakeFiles\WeveEngine.dir\src\weve_window.cpp.obj -c "C:\Users\MKDV86\Desktop\non-work code\WEVE\src\weve_window.cpp"
 
 CMakeFiles/WeveEngine.dir/src/weve_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WeveEngine.dir/src/weve_window.cpp.i"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\meldr\source\repos\WEVE\src\weve_window.cpp > CMakeFiles\WeveEngine.dir\src\weve_window.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\MKDV86\Desktop\non-work code\WEVE\src\weve_window.cpp" > CMakeFiles\WeveEngine.dir\src\weve_window.cpp.i
 
 CMakeFiles/WeveEngine.dir/src/weve_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WeveEngine.dir/src/weve_window.cpp.s"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\meldr\source\repos\WEVE\src\weve_window.cpp -o CMakeFiles\WeveEngine.dir\src\weve_window.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\MKDV86\Desktop\non-work code\WEVE\src\weve_window.cpp" -o CMakeFiles\WeveEngine.dir\src\weve_window.cpp.s
 
 # Object files for target WeveEngine
 WeveEngine_OBJECTS = \
@@ -163,7 +163,7 @@ WeveEngine.exe: CMakeFiles/WeveEngine.dir/build.make
 WeveEngine.exe: CMakeFiles/WeveEngine.dir/linklibs.rsp
 WeveEngine.exe: CMakeFiles/WeveEngine.dir/objects1.rsp
 WeveEngine.exe: CMakeFiles/WeveEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\meldr\source\repos\WEVE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable WeveEngine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\MKDV86\Desktop\non-work code\WEVE\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable WeveEngine.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\WeveEngine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -175,6 +175,6 @@ CMakeFiles/WeveEngine.dir/clean:
 .PHONY : CMakeFiles/WeveEngine.dir/clean
 
 CMakeFiles/WeveEngine.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\meldr\source\repos\WEVE C:\Users\meldr\source\repos\WEVE C:\Users\meldr\source\repos\WEVE\build C:\Users\meldr\source\repos\WEVE\build C:\Users\meldr\source\repos\WEVE\build\CMakeFiles\WeveEngine.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\MKDV86\Desktop\non-work code\WEVE" "C:\Users\MKDV86\Desktop\non-work code\WEVE" "C:\Users\MKDV86\Desktop\non-work code\WEVE\build" "C:\Users\MKDV86\Desktop\non-work code\WEVE\build" "C:\Users\MKDV86\Desktop\non-work code\WEVE\build\CMakeFiles\WeveEngine.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/WeveEngine.dir/depend
 

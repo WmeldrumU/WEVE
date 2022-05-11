@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\meldr\source\repos\WEVE
+CMAKE_SOURCE_DIR = "C:\Users\MKDV86\Desktop\non-work code\WEVE"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\meldr\source\repos\WEVE\build
+CMAKE_BINARY_DIR = "C:\Users\MKDV86\Desktop\non-work code\WEVE\build"
 
 # Utility rule file for Shaders.
 
@@ -69,12 +69,12 @@ CMakeFiles/Shaders: ../shaders/shader.frag.spv
 CMakeFiles/Shaders: ../shaders/shader.vert.spv
 
 ../shaders/shader.frag.spv: ../shaders/shader.frag
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\meldr\source\repos\WEVE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../shaders/shader.frag.spv"
-	C:\VulkanSDK\1.2.198.1\Bin\glslangValidator.exe -V C:/Users/meldr/source/repos/WEVE/shaders/shader.frag -o C:/Users/meldr/source/repos/WEVE/shaders/shader.frag.spv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\MKDV86\Desktop\non-work code\WEVE\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating ../shaders/shader.frag.spv"
+	C:\VulkanSDK\1.3.211.0\Bin\glslangValidator.exe -V "C:/Users/MKDV86/Desktop/non-work code/WEVE/shaders/shader.frag" -o "C:/Users/MKDV86/Desktop/non-work code/WEVE/shaders/shader.frag.spv"
 
 ../shaders/shader.vert.spv: ../shaders/shader.vert
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\meldr\source\repos\WEVE\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../shaders/shader.vert.spv"
-	C:\VulkanSDK\1.2.198.1\Bin\glslangValidator.exe -V C:/Users/meldr/source/repos/WEVE/shaders/shader.vert -o C:/Users/meldr/source/repos/WEVE/shaders/shader.vert.spv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="C:\Users\MKDV86\Desktop\non-work code\WEVE\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating ../shaders/shader.vert.spv"
+	C:\VulkanSDK\1.3.211.0\Bin\glslangValidator.exe -V "C:/Users/MKDV86/Desktop/non-work code/WEVE/shaders/shader.vert" -o "C:/Users/MKDV86/Desktop/non-work code/WEVE/shaders/shader.vert.spv"
 
 Shaders: CMakeFiles/Shaders
 Shaders: ../shaders/shader.frag.spv
@@ -91,6 +91,6 @@ CMakeFiles/Shaders.dir/clean:
 .PHONY : CMakeFiles/Shaders.dir/clean
 
 CMakeFiles/Shaders.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\meldr\source\repos\WEVE C:\Users\meldr\source\repos\WEVE C:\Users\meldr\source\repos\WEVE\build C:\Users\meldr\source\repos\WEVE\build C:\Users\meldr\source\repos\WEVE\build\CMakeFiles\Shaders.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\MKDV86\Desktop\non-work code\WEVE" "C:\Users\MKDV86\Desktop\non-work code\WEVE" "C:\Users\MKDV86\Desktop\non-work code\WEVE\build" "C:\Users\MKDV86\Desktop\non-work code\WEVE\build" "C:\Users\MKDV86\Desktop\non-work code\WEVE\build\CMakeFiles\Shaders.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Shaders.dir/depend
 
