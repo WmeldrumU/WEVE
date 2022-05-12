@@ -364,3 +364,6 @@ FodyWeavers.xsd
 
 # CMake Files
 CMakeFiles/*
+
+# Build Directory
+build/*

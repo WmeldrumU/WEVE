@@ -6,10 +6,12 @@
                 "${workspaceFolder}/lib/**",
                 // "C:/Program Files (x86)/Microsoft Visual Studio/Libraries/glfw-3.3.6.bin.WIN64/include",
                 // "C:/Program Files (x86)/Microsoft Visual Studio/Libraries/glm/glm",
-                "C:/VulkanSDK/1.2.198.1/Include",
+                //"C:/VulkanSDK/1.2.198.1/Include",
                 "C:/VulkanSDK/1.3.211.0/Include",
-                "C:/VulkanSDK/1.3.211.0/Include/**"
-                
+                //"C:/VulkanSDK/1.3.211.0/Include/**",
+                "C:/msys64/mingw64/include",
+                "C:/msys64/mingw64/include/c++",
+                "C:/MinGW/include"
             ],
             "defines": [
                 "_DEBUG",
@@ -17,7 +19,7 @@
                 "_UNICODE"
             ],
             "windowsSdkVersion": "10.0.19041.0",
-            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe",
+            "compilerPath": "C:/msys64/mingw64/bin/g++.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "windows-msvc-x64"

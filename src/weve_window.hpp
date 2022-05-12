@@ -16,7 +16,7 @@ namespace weve {
 
         bool shouldClose();
         
-        VkExtent2D getExtent() { return glfwWindowShouldClose(window); }
+       // VkExtent2D getExtent() { return glfwWindowShouldClose(window); }
 
         void createWindowSurface(VkInstance instance, VkSurfaceKHR *surface);
 
