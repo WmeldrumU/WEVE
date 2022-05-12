@@ -367,3 +367,4 @@ CMakeFiles/*
 
 # Build Directory
 build/*
+build/

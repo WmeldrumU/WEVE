@@ -1,4 +1,0 @@
-C:/Users/MKDV86/Desktop/non-work code/WEVE/build/CMakeFiles/WeveEngine.dir
-C:/Users/MKDV86/Desktop/non-work code/WEVE/build/CMakeFiles/Shaders.dir
-C:/Users/MKDV86/Desktop/non-work code/WEVE/build/CMakeFiles/edit_cache.dir
-C:/Users/MKDV86/Desktop/non-work code/WEVE/build/CMakeFiles/rebuild_cache.dir
