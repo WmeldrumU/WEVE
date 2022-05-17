@@ -1,0 +1,8 @@
+For Windows...
+install MSYS2 (64 bit)
+
+pacman -S mingw-w64-x86_64-toolchain
+
+remove/clear build directory
+
+run mingwBuild.bat
