@@ -3,6 +3,7 @@
 namespace weve {
 
     App::App() {
+        loadModels();
         createPipelineLayout();
         createPipeline();
         createCommandBuffers();
@@ -11,6 +12,16 @@ namespace weve {
 
     App::~App() {
         vkDestroyPipelineLayout(weveDevice.device(), pipelineLayout, nullptr);
+    }
+
+    void App::loadModels() {
+        //first {}  is for vector, second {} for vetex init, third for vec2 member init
+        std::vector<WeveModel::Vertex> vertices {
+            {{0.0f, -0.5f}},
+            {{0.5f, 0.5f}},
+            {{-0.5f, 0.5f}}
+        };
+        weveModel = std::make_unique<WeveModel>(weveDevice, vertices);
     }
 
     void App::run() {
@@ -89,7 +100,8 @@ namespace weve {
             vkCmdBeginRenderPass(commandBuffers[i], &renderPassInfo, VK_SUBPASS_CONTENTS_INLINE);
 
             wevePipeline->bind(commandBuffers[i]);
-            vkCmdDraw(commandBuffers[i], 3, 1, 0, 0);
+            weveModel->bind(commandBuffers[i]);
+            weveModel->draw(commandBuffers[i]);
 
             vkCmdEndRenderPass(commandBuffers[i]);
             if (vkEndCommandBuffer(commandBuffers[i]) != VK_SUCCESS) {

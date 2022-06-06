@@ -6,8 +6,8 @@
                 "${workspaceFolder}/lib/**",
                 // "C:/Program Files (x86)/Microsoft Visual Studio/Libraries/glfw-3.3.6.bin.WIN64/include",
                 // "C:/Program Files (x86)/Microsoft Visual Studio/Libraries/glm/glm",
-                //"C:/VulkanSDK/1.2.198.1/Include",
-                "C:/VulkanSDK/1.3.211.0/Include",
+                "C:/VulkanSDK/1.2.198.1/Include",
+                //"C:/VulkanSDK/1.3.211.0/Include",
                 //"C:/VulkanSDK/1.3.211.0/Include/**",
                 "C:/msys64/mingw64/include",
                 "C:/msys64/mingw64/include/c++"

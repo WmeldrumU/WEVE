@@ -3,7 +3,7 @@
  set(VULKAN_SDK_PATH  C:/VulkanSDK/1.2.198.1)
 
 set(GLFW_PATH "./lib/GLFW")
-set(GLM_PATH "./lib/glm")
+set(GLM_PATH "./lib/")
 #set(VULKAN_SDK_PATH  C:\VulkanSDK\1.3.211.0)
 
 # Set MINGW_PATH if using mingwBuild.bat and not VisualStudio20XX

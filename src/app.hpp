@@ -4,15 +4,17 @@
 #include "weve_pipeline.hpp"
 #include "weve_device.hpp"
 #include "weve_swap_chain.hpp"
-
+#include "weve_model.hpp"
 
 // std
 #include <memory>
 #include <vector>
 
-namespace weve {
-    class App {
-        public:
+namespace weve
+{
+    class App
+    {
+    public:
         static constexpr int WIDTH = 1080;
         static constexpr int HEIGHT = 720;
 
@@ -24,7 +26,8 @@ namespace weve {
 
         void run();
 
-        private:
+    private:
+        void loadModels();
         void createPipelineLayout();
         void createPipeline();
         void createCommandBuffers();
@@ -36,6 +39,6 @@ namespace weve {
         std::unique_ptr<WevePipeline> wevePipeline;
         VkPipelineLayout pipelineLayout;
         std::vector<VkCommandBuffer> commandBuffers;
-
+        std::unique_ptr<WeveModel> weveModel;
     };
 }
