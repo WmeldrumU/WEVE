@@ -6,7 +6,6 @@ WEVE - William's Excellence Vulkan Engine
 
 Toy Vulkan renderer. 
 
-## Getting Started
 
 ### Dependencies
 
